@@ -14,6 +14,6 @@ $image = computed(function() {
 
 <div>
     <h1>{{ $count }}</h1>
-    {{ $this->image }}<br>
+    {{ $this->image }}<br>    
     <button wire:click="increment">+</button>
 </div>
